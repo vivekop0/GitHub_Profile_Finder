@@ -1,0 +1,104 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    
+}
+.card{
+    height: 350px;
+    width: 300px;
+    
+    background: white;
+  
+}
+.baground{
+    background: #1ba8f4;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    background: rgb(253, 249, 249);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.user-details{
+    margin-top:30px ;
+   height: 50px; 
+  margin-bottom: 30px;
+
+}
+.user-details h1{
+    text-align: center;
+
+padding-top: px;
+}
+
+.user-details p{
+    margin-top: 5px;
+    text-align: center;
+   
+}
+.line{
+    height: 1px;
+ margin-bottom: 10px;
+   background: #000; 
+   
+}
+.like-flower{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.imgs{
+    object-fit: contain;
+    height: fit-content;
+    width: 50px;
+}
+
+.app-container{
+
+ 
+    justify-content: center;
+    align-items: center;
+    background:#3333d1;
+    height: 100vh;
+    }
+    
+    .container{
+      background: blueviolet;
+     
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+    }
+    .container input{
+    
+    
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    }
+    .container input:hover{
+    border: none;
+    
+      }
+    .container button{
+      padding: 10px 10px 10px 10px;
+      border: none;
+      border-radius: 10px;
+      margin-right: 10px;
+      }
